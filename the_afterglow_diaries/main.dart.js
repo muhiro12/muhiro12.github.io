@@ -18039,7 +18039,7 @@ r=B.c.hM(a,b,r+1)}return null},
 a8n(){var s=0,r=A.V(t.z),q
 var $async$a8n=A.Q(function(a,b){if(a===1)return A.S(b,r)
 while(true)switch(s){case 0:s=2
-return A.R($.aco().qR(0,"dot.env"),$async$a8n)
+return A.R($.aco().qR(0,"dotenv"),$async$a8n)
 case 2:if($.ad==null)A.aga()
 q=$.ad
 q.Kf(B.tt)
