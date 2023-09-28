@@ -1,9 +1,12 @@
 {
-  "applinks": {
+   "applinks": {
       "details": [
-           {
-             "appIDs": [ "ABCDE12345.com.example.app", "ABCDE12345.com.example.app2" ],
-             "components": [
+         {
+            "appIDs": [
+               "ABCDE12345.com.example.app",
+               "ABCDE12345.com.example.app2"
+            ],
+            "components": [
                {
                   "#": "no_universal_links",
                   "exclude": true,
@@ -20,19 +23,23 @@
                },
                {
                   "/": "/help/*",
-                  "?": { "articleNumber": "????" },
+                  "?": {
+                     "articleNumber": "????"
+                  },
                   "comment": "Matches any URL with a path that starts with /help/ and that has a query item with name 'articleNumber' and a value of exactly four characters."
                }
-             ]
-           }
-       ]
+            ]
+         }
+      ]
    },
    "webcredentials": {
-      "apps": [ "ABCDE12345.com.example.app" ]
+      "apps": [
+         "ABCDE12345.com.example.app"
+      ]
    },
-
-
-    "appclips": {
-        "apps": ["ABCED12345.com.example.MyApp.Clip"]
-    }
+   "appclips": {
+      "apps": [
+         "ABCED12345.com.example.MyApp.Clip"
+      ]
+   }
 }
