@@ -4,6 +4,12 @@
          {
             "appIDs": [
                "66PKF55HK5.com.muhiro12.Incomes"
+            ],
+            "components": [
+               {
+                  "/": "/incomes/app/*",
+                  "comment": "Matches any URL whose path starts with /incomes/app/"
+               }
             ]
          }
       ]
