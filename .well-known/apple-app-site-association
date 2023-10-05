@@ -7,8 +7,8 @@
             ],
             "components": [
                {
-                  "/": "/Incomes/app/*",
-                  "comment": "Matches any URL with a path that starts with /Incomes/app/."
+                  "/": "/Incomes/*",
+                  "comment": "Matches any URL with a path that starts with /Incomes/."
                }
             ]
          }
