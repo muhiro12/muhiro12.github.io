@@ -12,6 +12,18 @@
                   "comment": "Matches any URL with a path that starts with /Incomes/."
                }
             ]
+         },
+         {
+            "appIDs": [
+               "66PKF55HK5.com.muhiro12.Cookle",
+               "66PKF55HK5.com.muhiro12.Cookle.Dev"
+            ],
+            "components": [
+               {
+                  "/": "/Cookle/*",
+                  "comment": "Matches any URL with a path that starts with /Cookle/."
+               }
+            ]
          }
       ]
    }
