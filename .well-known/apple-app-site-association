@@ -24,6 +24,28 @@
                   "comment": "Matches any URL with a path that starts with /Cookle/."
                }
             ]
+         },
+         {
+            "appIDs": [
+               "66PKF55HK5.com.muhiro12.Stally"
+            ],
+            "components": [
+               {
+                  "/": "/Stally/library"
+               },
+               {
+                  "/": "/Stally/archive"
+               },
+               {
+                  "/": "/Stally/import-export"
+               },
+               {
+                  "/": "/Stally/create-item"
+               },
+               {
+                  "/": "/Stally/item/*"
+               }
+            ]
          }
       ]
    }
