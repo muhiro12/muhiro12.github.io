@@ -43,10 +43,7 @@
                   "/": "/Stally/create-item"
                },
                {
-                  "/": "/Stally/item",
-                  "?": {
-                     "id": "?*"
-                  }
+                  "/": "/Stally/item/*"
                }
             ]
          }
